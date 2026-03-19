@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om | AWS Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Om.dev</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Hello, I'm Om 👋</h1>
+        <p>Aspiring Software Engineer | AWS Enthusiast</p>
+        <button onclick="scrollToSection('projects')">View Projects</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am an engineering student passionate about backend development,
+            cloud computing, and building scalable applications.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>AWS Static Website</h3>
+                <p>Hosted using Amazon S3 with Free Tier.</p>
+                <button onclick="showAlert()">View</button>
+            </div>
+
+            <div class="card">
+                <h3>AI Chatbot</h3>
+                <p>Built using Python and Flask.</p>
+                <button onclick="showAlert()">View</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: ommasal1311@gmail.com</p>
+        <button onclick="showMessage()">Say Hi 👋</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Om | Hosted on AWS S3 🚀</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
